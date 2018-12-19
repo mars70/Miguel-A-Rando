@@ -1,0 +1,131 @@
+@charset "ISO-8859-1";
+
+body {
+  	background-color: #e2e0e0;
+  	margin:0 auto;
+}
+
+.centrar {
+	background-color: #ffff80;
+	padding: 0px 30px 0px 30px;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#indexenviar{
+	margin-top:15px;
+    margin-bottom:25px;
+	float:right;
+}
+
+ #dcha, #fdcha{
+ 	float:right;
+ }
+ 
+input[type=submit] {
+	color:green;
+	font-weight: bold;
+}
+
+input[type="number"] {
+   width:40px;
+}
+
+#indexmensaje {
+	color:red;
+}
+
+#nuevanotamensaje {
+	color:green;
+	float:right;
+}
+
+#enlinea {
+	margin-top: 10px;
+}
+
+#enlinea h3 {
+	display: inline;
+}
+
+.espaciar {
+	margin:10px;
+}
+
+#menuleyend {
+	padding:10px;
+}
+
+fieldset {
+	border-color: black;
+}
+
+#menuconsultar {
+	float:right;
+	margin-top:25px;
+}
+
+#menucrear {
+	float:left;
+}
+
+#nuevanotaguardar {
+	float:right;
+}
+
+.divScrollV {
+    overflow-y:auto;
+    height:200px;
+    width:100%;
+}
+
+.divScrollH {
+    overflow-x:auto;
+    height:40px;
+    width:100%;
+}
+
+#linklistado{
+	margin:20px 0px 20px 0px;
+	float:right;
+}
+
+#espaciar {
+	margin-top:20px;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+  	width: 100%;
+}
+
+th {
+	background-color: #ff8000;
+}
+
+tr:nth-child(n+1):nth-child(odd) {
+  background-color: #f7f5f4;
+}
+
+tr:nth-child(n+1):nth-child(even) {
+  background-color: #e2e0e0;
+}
+
+.table-hover tbody tr:hover td {
+    background: aqua;
+}
+
+th, td {
+	border: 1px solid #e2e0e0;
+ 	text-align: center;
+  	padding: 10px;
+    width: 100%;
+}
+
+.separ {
+	margin:10px;
+}
